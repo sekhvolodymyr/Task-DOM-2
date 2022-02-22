@@ -14,6 +14,7 @@ function changeStyle()
   l.getElementsByTagName("li")[0].style.display = "inline";
   l.getElementsByTagName("li")[1].style.display = "inline";
   l.getElementsByTagName("li")[2].style.display = "inline";
+  document.getElementById("myList").style.display = "block";
   document.getElementById("myList").style.display = "flex";
 
   let s = document.getElementsByTagName("span")[0];
